@@ -18,6 +18,11 @@ import stackoverflow from "../../assets/img/stackoverflow.svg";
 import next from '../../assets/img/next.svg'
 import tailwind from '../../assets/img/tailwind.svg'
 import typescript from '../../assets/img/typescript.svg'
+import node from '../../assets/img/node.svg'
+import express from '../../assets/img/express.svg'
+import mongodb from '../../assets/img/mongodb.svg'
+import postgresql from '../../assets/img/postgresql.svg'
+import graphql from '../../assets/img/graphql.svg'
 
 export const skillsData = [
   html,
@@ -37,6 +42,11 @@ export const skillsData = [
   // wordpress,
   command,
   stackoverflow,
-  // next,
-  // typescript
+  next,
+  // typescript,
+  // node,
+  // express,
+  // mongodb,
+  // graphql,
+  // postgresql,
 ];
