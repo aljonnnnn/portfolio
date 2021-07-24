@@ -4,6 +4,7 @@ import whoPay from "../../assets/img/who-pay.png";
 import todoList from "../../assets/img/todo-list.png";
 import myPortfolio from "../../assets/img/my-portfolio.png";
 import coronaOyy from "../../assets/img/coronaOyy.png";
+import socialMediaApp from "../../assets/img/social-media-app.png";
 
 import iconProjecWeb from "../../assets/img/web-project-link.svg";
 import iconProjectGithub from "../../assets/img/github-project-link.svg";
@@ -109,7 +110,7 @@ export const portfolioData = {
     {
       projectName: "CoronaOyy",
       projectDetail:
-        "CoronaOyy is a web application that tracks the current Covid-19 cases all over the globe. Great practice for fetch api",
+        "CoronaOyy is a web application that tracks the current Covid-19 cases all over the globe. Great practice for fetch api.",
       projectLink: "https://covidoyy.vercel.app/",
       projectImg: coronaOyy,
       techUse: ["react js", "scss", "web api", "framer motion"],
@@ -123,6 +124,24 @@ export const portfolioData = {
         "https://covidoyy.vercel.app/",
         "https://github.com/aljonnnnn/coronaoyy",
         "https://www.figma.com/file/tztxAoWedvcgnQyKfoy8UQ/CoronaOyy?node-id=0%3A1",
+      ],
+
+      iconImgs: [iconProjecWeb, iconProjectGithub, iconProjectFigma],
+    },
+    {
+      projectName: "social media app",
+      projectDetail:
+        "in this project I follow MERNG Stack tutorial from freecodecamp. I learn how graphQL, Node js and Express js works together in backend side.",
+      projectLink: "https://social-media-app-merng-stack-aljonnnnn.vercel.app/",
+      projectImg: socialMediaApp,
+      techUse: ["mongodb", "express js", "node js", "react js", "graphql"],
+
+      webLink: "https://covidoyy.vercel.app/",
+      githubLink: "https://github.com/aljonnnnn/coronaoyy",
+
+      iconLinks: [
+        "https://social-media-app-merng-stack-aljonnnnn.vercel.app/",
+        "https://github.com/aljonnnnn/social-media-app-merng-stack/",
       ],
 
       iconImgs: [iconProjecWeb, iconProjectGithub, iconProjectFigma],
